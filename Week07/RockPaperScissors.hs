@@ -142,6 +142,9 @@ final _        = False
 
 {-# INLINABLE check #-}
 check :: ByteString -> ByteString -> ByteString -> GameDatum -> GameRedeemer -> ScriptContext -> Bool
+-- do we need to check this case too?
+-- check bsRock' bsPaper' bsScissors' (GameDatum bs (Just c)) (RevealDraw nonce _) _ =
+--    sha2_256 (nonce `concatenate`  if c == Rock then bsRock' else if c == Paper then bsPaper' else bsScissors') ==  bs 
 check bsRock' bsPaper' bsScissors' (GameDatum bs (Just _)) (Reveal nonce c) _ =
     sha2_256 (nonce `concatenate` if c == Rock then bsRock' else if c == Paper then bsPaper' else bsScissors') == bs -- && (beats c c' || c == c')
 check _       _        _           _                       _              _ = True
