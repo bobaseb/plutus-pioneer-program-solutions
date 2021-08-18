@@ -1,4 +1,4 @@
-#Week 08 Homework (Plutus Pioneer Program)
+# Week 08 Homework (Plutus Pioneer Program)
 
 This week had a long lecture using property based testing (Quickcheck) on a token sale contract. The homework was to add a "close" endpoint to the token sale and amend the model and trace accordingly -- the test suite needs a model to simulate interactions with the outside world basically. Closing the contract should withdraw all ada, the tokens being sold and the contract's NFT (giving them back to the original seller).
 
