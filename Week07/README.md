@@ -1,4 +1,4 @@
-#Week 07 Homework (Plutus Pioneer Program)
+# Week 07 Homework (Plutus Pioneer Program)
 
 This week had a long lecture presenting how to build a state machine to handle a simplified version of Rock, Paper, Scissors but with only two moves (Zero & One). The homework for this week was to modify the state machine to implement the standard version of Rock, Paper, Scissors with stake given back to players if tied. 
 
