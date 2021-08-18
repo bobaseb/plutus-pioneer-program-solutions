@@ -1,4 +1,4 @@
-#Week 05 Homework (Plutus Pioneer Program)
+# Week 05 Homework (Plutus Pioneer Program)
 
 Homework1.hs wants to acheive the following:
 
