@@ -1,4 +1,4 @@
-#Week 09 Homework (Plutus Pioneer Program)
+# Week 09 Homework (Plutus Pioneer Program)
 
 This week was about Marlowe, a domain-specific language (DSL) focused on financial contracts. The example given was Alice & Bob deposit some ada (same amounts) and Charlie chooses who gets the pot. We saw how to code this visually with Blockly and also in plain Haskell.
 
