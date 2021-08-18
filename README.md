@@ -1,4 +1,4 @@
-#Plutus Pioneer Program (PPP) Solutions
+# Plutus Pioneer Program (PPP) Solutions
 
 The Plutus Pioneer Program (PPP) can be accessed [here](https://github.com/input-output-hk/plutus-pioneer-program).
 
