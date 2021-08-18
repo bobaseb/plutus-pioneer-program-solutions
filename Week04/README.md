@@ -1,4 +1,4 @@
-#Week 03 Homework (Plutus Pioneer Program)
+# Week 03 Homework (Plutus Pioneer Program)
 
 Homework.hs wants to acheive the following:
 
