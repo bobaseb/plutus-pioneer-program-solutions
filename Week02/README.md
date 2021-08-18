@@ -1,4 +1,4 @@
-#Week 02 Homework (Plutus Pioneer Program)
+# Week 02 Homework (Plutus Pioneer Program)
 
 For Homework1.hs we needed to change the validator to check if two Booleans are equal.
 
